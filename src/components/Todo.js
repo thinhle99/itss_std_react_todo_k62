@@ -34,9 +34,10 @@ function Todo() {
       </div>
       {items.map(item => (
         <label className="panel-block">
-            <input type="checkbox" />
-            {item.text}
+          <input type="checkbox" />
+          {item.text}
         </label>
+      
       ))}
       <div className="panel-block">
         {items.length} items
